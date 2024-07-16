@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="favicon" href="img/logo.png">
+    <title>Food Ordering System</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="header">
+            <div class="logo">
+                <a href="index.php">A2RS</a>
+            </div>
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a class="nav-link nav-link-ltr" href="#dishes">DISHES</a></li>
+                    <li><a class="nav-link nav-link-ltr" href="#deserts">DESERTS</a></li>
+                    <li><a class="nav-link nav-link-ltr" href="#drinks">DRINKS</a></li>
+                    <li><a class="nav-link nav-link-ltr" href="#order">ORDER</a></li>
+                    <li><a href="login.php" class="login">Sign In</a></li>
+                    <li><a href="#"></a> <i class='bx bxs-cart-add'></i></li>
+
+                </ul>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa fa-bars" aria-hidden="true" class="burger"></i>
+            </div>
+        </div>
+    </header>
+
+<section class="dishes" id="dishes">
+    <div class="title">
+        <h1>Our Tasty Dishes</h1>
+        <h4>Indulge in our diverse selection of delicious dishes, each crafted with fresh ingredients and bursting with flavor.</h4>
+    </div>
+
+    <div class="dish-items">
+        <div class="dish-item">
+            <img src="img/ham.png" alt="Ham-Burger" class="food-img">
+            <h3 class="food-name">Ham-Burger</h3>
+            <p class="food-price">Rs. 250</p>
+            <p class="food-description">Juicy grilled hamburger with fresh lettuce, tomato, and a special house sauce, served in a toasted bun.</p>
+        </div>
+        <div class="dish-item">
+            <img src="img/chowmein.png" alt="Chowmein" class="food-img">
+            <h3 class="food-name">Chowmein</h3>
+            <p class="food-price">Rs. 120</p>
+            <p class="food-description">Stir-fried noodles with vegetables and savory soy sauce, garnished with spring onions and sesame seeds.</p>
+        </div>
+        <div class="dish-item">
+            <img src="img/pizza.png" alt="Pizza" class="food-img">
+            <h3 class="food-name">Pizza</h3>
+            <p class="food-price">Rs. 890</p>
+            <p class="food-description">Classic Italian pizza with mozzarella cheese, tomato sauce, and a variety of fresh toppings.</p>
+        </div>
+        <div class="dish-item">
+            <img src="img/momo.png" alt="Momo" class="food-img">
+            <h3 class="food-name">Momo</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Steamed dumplings filled with seasoned minced meat and vegetables, served with spicy dipping sauce.</p>
+        </div>
+        <div class="dish-item">
+            <img src="img/paneer kadhai.png" alt="Paneer Kadhai" class="food-img">
+            <h3 class="food-name">Paneer Kadhai</h3>
+            <p class="food-price">Rs. 360</p>
+            <p class="food-description">Chunks of paneer cooked with bell peppers and onions in a spicy tomato gravy, served with naan or rice.</p>
+        </div>
+        <div class="dish-item">
+            <img src="img/rice curry.png" alt="Rice Curry" class="food-img">
+            <h3 class="food-name">Rice Curry</h3>
+            <p class="food-price">Rs. 300</p>
+            <p class="food-description">Aromatic basmati rice served with rich and flavorful curry, made with a blend of spices and herbs.</p>
+        </div>
+    </div>
+</section>
+
+<section class="deserts" id="deserts">
+    <div class="title">
+        <h1>Our Sweet Desserts</h1>
+        <h4>Treat yourself to our irresistible desserts, perfectly sweet and crafted to delight your taste buds.</h4>
+    </div>
+
+    <div class="desert-items">
+        <div class="desert-item">
+            <img src="img/raspberry pavlova.png" alt="Raspberry Pavlova" class="food-img">
+            <h3 class="food-name">Raspberry Pavlova</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Crisp meringue base topped with whipped cream and fresh raspberries, drizzled with raspberry sauce.</p>
+        </div>
+        <div class="desert-item">
+            <img src="img/gulab jamun.png" alt="Gulab Jamun" class="food-img">
+            <h3 class="food-name">Gulab Jamun</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Soft, spongy balls made from milk solids, soaked in rose-flavored sugar syrup.</p>
+        </div>
+        <div class="desert-item">
+            <img src="img/rasmalai cake.png" alt="Rasmalai Cake" class="food-img">
+            <h3 class="food-name">Rasmalai Cake</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Moist and fluffy cake infused with the flavors of rasmalai, topped with rich cream and pistachios.</p>
+        </div>
+        <div class="desert-item">
+            <img src="img/strawberry pastry.png" alt="Strawberry Pastry" class="food-img">
+            <h3 class="food-name">Strawberry Pastry</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Layered pastry filled with fresh strawberries and cream, topped with a sweet glaze.</p>
+        </div>
+        <div class="desert-item">
+            <img src="img/cupcake.png" alt="Cupcake" class="food-img">
+            <h3 class="food-name">Cupcake</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Fluffy and moist cupcake with a variety of flavors, topped with creamy frosting and sprinkles.</p>
+        </div>
+        <div class="desert-item">
+            <img src="img/rasgulla.png" alt="Rasgulla" class="food-img">
+            <h3 class="food-name">Rasgulla</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Soft and spongy cheese balls soaked in light sugar syrup, a classic Indian dessert.</p>
+        </div>
+    </div>
+</section>
+
+<section class="drinks" id="drinks">
+    <div class="title">
+        <h1>Our Refreshing Drinks</h1>
+        <h4>Refresh with our vibrant and nutritious juices, made from the freshest fruits and vegetables.</h4>
+    </div>
+
+    <div class="drink-items">
+        <div class="drink-item">
+            <img src="img/orange juice.png" alt="Orange Juice" class="food-img">
+            <h3 class="food-name">Orange Juice</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Freshly squeezed orange juice, packed with vitamin C and natural sweetness.</p>
+        </div>
+        <div class="drink-item">
+            <img src="img/chocolate shake.png" alt="Chocolate Shake" class="food-img">
+            <h3 class="food-name">Chocolate Shake</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Rich and creamy chocolate shake made with premium cocoa and milk, topped with whipped cream.</p>
+        </div>
+        <div class="drink-item">
+            <img src="img/ice-cream shake.png" alt="Ice-Cream Shake" class="food-img">
+            <h3 class="food-name">Ice-Cream Shake</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Delicious shake blended with scoops of ice cream, offering a perfect balance of sweetness and creaminess.</p>
+        </div>
+        <div class="drink-item">
+            <img src="img/strawberry cocktail.png" alt="Strawberry Cocktail" class="food-img">
+            <h3 class="food-name">Strawberry Cocktail</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Refreshing cocktail made with fresh strawberries, lime, and a hint of mint, served chilled.</p>
+        </div>
+        <div class="drink-item">
+            <img src="img/sweet lassi.png" alt="Sweet Lassi" class="food-img">
+            <h3 class="food-name">Sweet Lassi</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Traditional Indian yogurt drink, sweetened and flavored with rose water and cardamom.</p>
+        </div>
+        <div class="drink-item">
+            <img src="img/guava juice.png" alt="Guava Juice" class="food-img">
+            <h3 class="food-name">Guava Juice</h3>
+            <p class="food-price">Rs. 150</p>
+            <p class="food-description">Exotic guava juice with a tropical flavor, rich in antioxidants and vitamin C.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>A2RS Foods</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#dishes">Dishes</a></li>
+                        <li><a href="#deserts">Deserts</a></li>
+                        <li><a href="#drinks">Drinks</a></li>
+                        <li><a href="#order">Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">Email: contact@a2rsfoods.com</a></li>
+                        <li><a href="#">Phone: +9779841250107</a></li>
+                        <li><a href="#">Address: 123 Food Street, Flavor Town</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 A2RS Foods. All Rights Reserved.</p>
+        </div>
+    </footer>
+    </body>
+    </html>
