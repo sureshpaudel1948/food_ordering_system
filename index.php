@@ -64,7 +64,7 @@
         <div class="title">
             <h1>Our Tasty Dishes</h1>
             <h4>Indulge in our diverse selection of delicious dishes, each crafted with fresh ingredients and bursting
-                with flavor.</h4>
+                with flavor.</h4><br><br>
         </div>
 
         <div class="dish-items">
@@ -108,7 +108,7 @@
         <div class="title">
             <h1>Our Sweet Deserts</h1>
             <h4>Treat yourself to our irresistible desserts, perfectly sweet and crafted to delight your taste buds.
-            </h4>
+            </h4><br><br>
         </div>
 
         <div class="desert-items">
@@ -149,6 +149,7 @@
         <div class="title">
             <h1>Our Freshning Drinks</h1>
             <h4>Refresh with our vibrant and nutritious juices, made from the freshest fruits and vegetables.</h4>
+            <br><br>
         </div>
 
         <div class="drink-items">
